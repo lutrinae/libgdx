@@ -3,6 +3,10 @@
 .*.swp
 .DS_STORE
 
+.classpath/
+.gitignore
+.metadata*
+
 bin/
 target/
 obj/
@@ -31,7 +35,8 @@ ipch/
 *.sdf
 *.class
 
-libgdx-*.zip
+*libgdx-*.zip
+*tween-*.zip
 
 #core & extension libs/ folders that have no 3rd party dependencies in them
 /gdx/libs
